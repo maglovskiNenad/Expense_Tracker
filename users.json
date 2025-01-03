@@ -1,0 +1,72 @@
+[
+    {
+        "user_id": "1234",
+        "name": "Test",
+        "email": "test@example.com",
+        "currency": "USD",
+        "settings": {
+            "budget": 2000,
+            "monthly_goal": 1500,
+            "notification_preferences": {
+                "email_notifications": true,
+                "sms_notifications": false
+            }
+        },
+        "expenses": [
+            {
+                "expense_id": "001",
+                "date": "2023-12-01",
+                "category": "Food",
+                "description": "Lunch at restaurant",
+                "amount": 15.5
+            },
+            {
+                "expense_id": "002",
+                "date": "2023-12-02",
+                "category": "Transport",
+                "description": "Bus ticket",
+                "amount": 2.75
+            },
+            {
+                "expense_id": "003",
+                "date": "2023-12-03",
+                "category": "Shopping",
+                "description": "New clothes",
+                "amount": 45.0
+            },
+            {
+                "expense_id": "004",
+                "date": "2025-01-03",
+                "category": "Fun",
+                "description": "More fun",
+                "amount": 100
+            }
+        ],
+        "income": [
+            {
+                "income_id": "001",
+                "date": "2023-12-01",
+                "source": "Salary",
+                "amount": 3000,
+                "description": "Monthly salary payment"
+            },
+            {
+                "income_id": "002",
+                "date": "2023-12-05",
+                "source": "Freelance",
+                "amount": 500,
+                "description": "Project payment from client"
+            }
+        ],
+        "summary": {
+            "total_income": 3500,
+            "total_expenses": 63.25,
+            "remaining_budget": 1936.75,
+            "categories_breakdown": {
+                "Food": 15.5,
+                "Transport": 2.75,
+                "Shopping": 45.0
+            }
+        }
+    }
+]
