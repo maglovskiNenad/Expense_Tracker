@@ -12,3 +12,5 @@ The Expense Tracker CLI application is a simple command-line tool to help users 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+https://roadmap.sh/projects/expense-tracker
