@@ -40,6 +40,20 @@
                 "category": "Fun",
                 "description": "More fun",
                 "amount": 100
+            },
+            {
+                "expense_id": "679",
+                "date": "2025-01-04",
+                "category": "Party",
+                "description": "A lot of fun",
+                "amount": 50
+            },
+            {
+                "expense_id": "147",
+                "date": "2025-01-04",
+                "category": "Travel",
+                "description": "Plane ticket",
+                "amount": 250
             }
         ],
         "income": [
@@ -60,12 +74,14 @@
         ],
         "summary": {
             "total_income": 3500,
-            "total_expenses": 63.25,
-            "remaining_budget": 1936.75,
+            "total_expenses": 463.25,
+            "remaining_budget": 3036.75,
             "categories_breakdown": {
                 "Food": 15.5,
                 "Transport": 2.75,
-                "Shopping": 45.0
+                "Shopping": 45.0,
+                "Party": 50,
+                "Travel": 250
             }
         }
     }
